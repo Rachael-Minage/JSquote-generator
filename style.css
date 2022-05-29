@@ -1,0 +1,33 @@
+body{
+    background: rgba(145, 75, 18, 0.76);
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+.quotes{
+    
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    background-color: rgba(145, 75, 18, 0.151);
+    color: rgb(85, 41, 5);
+    border: 10px solid rgb(151, 75, 13);
+
+}.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+}
